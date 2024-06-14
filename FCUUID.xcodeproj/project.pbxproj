@@ -32,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99CA3CDE2C1BD705006A3CB2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		"FCUUID::FCUUID::Product" /* FCUUID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FCUUID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* FCUUID.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FCUUID.podspec; sourceTree = "<group>"; };
 		OBJ_11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -124,7 +125,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -134,7 +135,6 @@
 				OBJ_27 /* Products */,
 				OBJ_30 /* FCUUID */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -155,6 +155,7 @@
 				OBJ_13 /* FCUUID.podspec */,
 				OBJ_14 /* README.md */,
 				OBJ_15 /* FCUUID */,
+				99CA3CDE2C1BD705006A3CB2 /* PrivacyInfo.xcprivacy */,
 			);
 			name = FCUUID;
 			sourceTree = SOURCE_ROOT;
@@ -264,7 +265,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
